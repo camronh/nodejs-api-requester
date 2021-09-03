@@ -49,15 +49,12 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Configure app
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+Open `make-request.js` then edit it with your settings.
 
-- A setting;
-- Another setting;
-- One more setting;
+- The API Endpoint;
 
 ## Running the project
 
-Make whatever changes you need to to the variables `make-request.js` file then run with:
+Run with:
 
     $ node make-request
-

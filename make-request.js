@@ -1,8 +1,8 @@
 const axios = require("axios");
 
-async function makeRequest() {
+async function makeRequest(url) {
   // Make the API request
-  const results = await axios.get("https://pokeapi.co/api/v2/pokemon/ditto");
+  const results = await axios.get(url);
 
   // Turn results into a nicely formatted JSON object
   const data = JSON.stringify(results.data, null, 2);
@@ -12,4 +12,4 @@ async function makeRequest() {
 }
 
 // Run function
-makeRequest();
+makeRequest("https://pokeapi.co/api/v2/pokemon/ditto");
